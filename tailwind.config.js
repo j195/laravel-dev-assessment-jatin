@@ -11,6 +11,12 @@ export default {
         './resources/js/**/*.vue',
     ],
 
+    safelist: [
+    {
+      pattern: /bg-+/, // 👈  This includes bg of all colors and shades
+    },
+  ],
+
     theme: {
         extend: {
             fontFamily: {
