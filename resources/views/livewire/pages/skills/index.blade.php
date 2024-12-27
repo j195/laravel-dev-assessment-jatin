@@ -71,6 +71,7 @@
             <div class="bg-white-500">
 
                 <form wire:submit="saveSkill" class="max-w-sm mx-auto">
+                    <h1 class="mx-1">Add new Skill</h1>
                     <div class="mb-5">
                         <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name:
                         </label>
