@@ -68,7 +68,7 @@ class Index extends Component
         $this->validate();
 
         $rules = [
-            'name' =>  'required',
+            'name' =>  'required|string|unique:skills,name,{$skill->id}',
         ];
 
         $messages = [
