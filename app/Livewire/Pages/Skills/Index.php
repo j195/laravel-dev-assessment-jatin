@@ -10,6 +10,7 @@ use App\Models\Skill;
 use Livewire\Attributes\Rule;
 
 
+
 class Index extends Component
 {
     use WithPagination, WithoutUrlPagination;
